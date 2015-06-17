@@ -1,0 +1,888 @@
+/* 1. RESET */
+
+@import url(normalize.css);
+
+
+
+
+
+
+
+
+
+
+/* 2. FONTS */
+
+
+@font-face {
+    font-family: 'Roboto-100';
+
+    src: url('../fonts/Roboto/Roboto-100.eot');
+    src: url('../fonts/Roboto/Roboto-100.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-100.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-100.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-100.svg#Roboto-100') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-100-Italic';
+
+    src: url('../fonts/Roboto/Roboto-100-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-100-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-100-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-100-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-100-Italic.svg#Roboto-100-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-300';
+
+    src: url('../fonts/Roboto/Roboto-300.eot');
+    src: url('../fonts/Roboto/Roboto-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-300.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-300.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-300.svg#Roboto-300') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-300-Italic';
+
+    src: url('../fonts/Roboto/Roboto-300-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-300-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-300-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-300-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-300-Italic.svg#Roboto-300-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-500';
+
+    src: url('../fonts/Roboto/Roboto-500.eot');
+    src: url('../fonts/Roboto/Roboto-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-500.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-500.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-500.svg#Roboto-500') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-500-Italic';
+
+    src: url('../fonts/Roboto/Roboto-500-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-500-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-500-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-500-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-500-Italic.svg#Roboto-500-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-700';
+
+    src: url('../fonts/Roboto/Roboto-700.eot');
+    src: url('../fonts/Roboto/Roboto-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-700.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-700.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-700.svg#Roboto-700') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-700-Italic';
+
+    src: url('../fonts/Roboto/Roboto-700-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-700-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-700-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-700-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-700-Italic.svg#Roboto-700-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-900';
+
+    src: url('../fonts/Roboto/Roboto-900.eot');
+    src: url('../fonts/Roboto/Roboto-900.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-900.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-900.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-900.svg#Roboto-900') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-900-Italic';
+
+    src: url('../fonts/Roboto/Roboto-900-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-900-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-900-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-900-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-900-Italic.svg#Roboto-900-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed-300';
+
+    src: url('../fonts/Roboto/Roboto-Condensed-300.eot');
+    src: url('../fonts/Roboto/Roboto-Condensed-300.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Condensed-300.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Condensed-300.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Condensed-300.svg#Roboto-Condensed-300') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed-300-Italic';
+
+    src: url('../fonts/Roboto/Roboto-Condensed-300-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-Condensed-300-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Condensed-300-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Condensed-300-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Condensed-300-Italic.svg#Roboto-Condensed-300-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed-700';
+
+    src: url('../fonts/Roboto/Roboto-Condensed-700.eot');
+    src: url('../fonts/Roboto/Roboto-Condensed-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Condensed-700.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Condensed-700.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Condensed-700.svg#Roboto-Condensed-700') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed-700-Italic';
+
+    src: url('../fonts/Roboto/Roboto-Condensed-700-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-Condensed-700-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Condensed-700-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Condensed-700-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Condensed-700-Italic.svg#Roboto-Condensed-700-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed-Italic';
+
+    src: url('../fonts/Roboto/Roboto-Condensed-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-Condensed-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Condensed-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Condensed-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Condensed-Italic.svg#Roboto-Condensed-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Condensed-Regular';
+
+    src: url('../fonts/Roboto/Roboto-Condensed-Regular.eot');
+    src: url('../fonts/Roboto/Roboto-Condensed-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Condensed-Regular.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Condensed-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Condensed-Regular.svg#Roboto-Condensed-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+
+    src: url('../fonts/Roboto/Roboto-Italic.eot');
+    src: url('../fonts/Roboto/Roboto-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Italic.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Italic.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Italic.svg#Roboto-Italic') format('svg');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+
+    src: url('../fonts/Roboto/Roboto-Regular.eot');
+    src: url('../fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto/Roboto-Regular.svg#Roboto-Regular') format('svg');
+}
+
+@font-face {
+    font-family: ProximaNova-Bold;
+
+    src: url('../fonts/ProximaNova/ProximaNova-Bold.eot');
+    src: url('../fonts/ProximaNova/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ProximaNova/ProximaNova-Bold.woff') format('woff'),
+    url('../fonts/ProximaNova/ProximaNova-Bold.ttf') format('truetype'),
+    url('../fonts/ProximaNova/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 3. COMMON */
+
+html {
+    font-family: sans-serif;
+    font-size: 100%;
+    height: 100%;
+
+    -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+}
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 100%;
+    line-height: 1.45;
+    min-width: 1024px;
+}
+
+
+
+
+
+
+
+
+
+
+/* 4. TYPOGRAPHY */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    font-weight: normal;
+    line-height: 1.2;
+    margin: 1.2em 0;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+}
+h3 {
+    font-size: 1.17em;
+}
+h4 {
+    font-size: 1.12em;
+}
+h5 {
+    font-size: .83em;
+}
+h6 {
+    font-size: .75em;
+}
+
+
+p {
+    margin: 0 0 1em;
+}
+
+
+b,
+strong {
+    font-weight: bold;
+}
+
+
+blockquote {
+    border: 1px solid #333;
+    margin: 1em 0;
+    padding: 0 0 0 1em;
+}
+blockquote p {
+    margin: 0;
+}
+
+
+hr {
+    background-color: #333;
+    border: none;
+    height: 1px;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+ul,
+ol,
+dl {
+    margin: 1em 0;
+    padding: 0 0 0 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 5. LINKS */
+a {
+    color: #464d57;
+    text-decoration: none;
+
+    -webkit-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+}
+a:hover {
+    color: #252b33;
+}
+a:focus {
+    outline: none;
+    /*outline: thin dotted;*/
+}
+.link-underline {
+    border-bottom: 1px solid rgba(70,77,87,.6);
+}
+.link-underline:hover {
+    border-bottom-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+/* 6. MEDIA */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 7. OTHER */
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 8. LAYOUTS */
+
+.container {
+    margin: 0 auto;
+    padding: 0 12px;
+    width: 1000px;
+}
+
+/* Fix Google Maps Styles */
+.gm-style img {
+    display: inline;
+    max-width: none;
+}
+.gm-style a {
+    border: none;
+}
+
+
+
+
+.outerWrapper {
+    margin: 0 auto;
+    max-width: 1366px;
+    min-width: 1024px;
+    position: relative;
+}
+
+
+
+/* Header */
+
+.header {
+    background-color: #afbfd9;
+    height: 94px;
+    left: 0;
+    padding: 17px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+
+    -webkit-transition: -webkit-transform .5s ease-in-out;
+         -o-transition:      -o-transform .5s ease-in-out;
+            transition:         transform .5s ease-in-out;
+
+    -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+            transform: translateY(0);
+}
+.header .back-to-site {
+    display: inline-block;
+    vertical-align: top;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: 12px;
+    position: relative;
+    width: 40px;
+
+    -webkit-transition: -webkit-transform .2s ease-in-out;
+    -o-transition: -o-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+}
+.header .back-to-site:before {
+    content: '';
+    background: url(../images/icon-back-24.png) 0 0 no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+    height: 24px;
+    width: 24px;
+}
+.header .back-to-site:hover {
+    -webkit-transform: translateX(-3px);
+    -ms-transform: translateX(-3px);
+    -o-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+
+.header .logo {
+    background: url(../images/logo.png) 0 0 no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    height: 60px;
+    width: 220px;
+}
+
+.header .soon {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    vertical-align: top;
+    font-family: ProximaNova-Bold;
+}
+
+body.pp-viewing-section2 .header,
+body.pp-viewing-section3 .header,
+body.pp-viewing-section4 .header,
+body.pp-viewing-section5 .header {
+    -webkit-transform: translateY(-100%);
+        -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+            transform: translateY(-100%);
+}
+
+
+
+
+
+
+/* Sections */
+
+.section {
+    background-color: #cdd9ea;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+            background-size: cover;
+    padding: 40px;
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.section .title-wrapper {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    z-index: 2;
+}
+.section .title-wrapper .title + .title {
+    margin-top: 12px;
+}
+.section .title-wrapper .title > span {
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+    display: inline-block;
+    font-family: Roboto-Condensed-300;
+    font-size: 63px;
+    line-height: 1.3;
+    padding: 0 20px;
+    text-transform: uppercase;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+
+.section-1 {
+    background-image: url(../images/bg_section1.jpg);
+    padding-top: 134px;
+}
+.section-1 .title-wrapper .title > span {
+    background-color: rgba(46,65,89,.5);
+}
+.section-1 .device {
+    background: url(../images/section1_device.png) 100% 100% no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 360px;
+    width: 60%;
+}
+
+
+.section-2 {
+    background-image: url(../images/bg_section2.jpg);
+    padding-top: 134px;
+}
+.section-2 .device {
+    background: url(../images/section2_device.png) center no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    bottom: 134px;
+    position: absolute;
+    right: 0;
+    top: 134px;
+    width: 40%;
+}
+
+
+.section-3 {
+    background-image: url(../images/bg_section3.jpg);
+}
+.section-3 .device {
+    background: url(../images/section3_device.png) 100% 100% no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 42%;
+}
+[class^='icon-'] {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: inline-block;
+    height: 42px;
+    margin-top: .3em;
+    margin-right: 10px;
+    vertical-align: top;
+    width: 42px;
+}
+.icon-people {
+    background-image: url(../images/icon-people-42.png);
+}
+.icon-teacher {
+    background-image: url(../images/icon-teacher-42.png);
+}
+.icon-stats {
+    background-image: url(../images/icon-stats-42.png);
+}
+.icon-medal {
+    background-image: url(../images/icon-medal-42.png);
+}
+.icon-money {
+    background-image: url(../images/icon-money-42.png);
+}
+
+
+.section-4 {
+    background-image: url(../images/bg_section4.jpg);
+    padding-top: 110px;
+}
+.section-4 .device {
+    background: url(../images/section4_device.png) center no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    bottom: 110px;
+    position: absolute;
+    right: 0;
+    top: 110px;
+    width: 40%;
+}
+
+
+.section-5 {
+    background-image: url(../images/bg_section5.jpg);
+    padding-top: 60px;
+}
+.section-5 .device {
+    background: url(../images/section5_device.png) 100% 100% no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    top: 25%;
+    width: 60%;
+}
+.section-5 .appstore-link {
+    background: url(../images/appstore-link.png) center no-repeat;
+    -webkit-background-size: contain;
+            background-size: contain;
+    bottom: 17%;
+    height: 68px;
+    left: 21%;
+    position: absolute;
+    width: 235px;
+
+    -webkit-transition: -webkit-transform .25s ease-in-out;
+         -o-transition:      -o-transform .25s ease-in-out;
+            transition:         transform .25s ease-in-out;
+}
+.section-5 .appstore-link:hover {
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+         -o-transform: translateY(-5px);
+            transform: translateY(-5px);
+}
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #c1e3de;
+    height: 50px;
+    padding: 10px 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.footer-logo {
+    background: url(../images/logo.png) center no-repeat;
+    -webkit-background-size: cover;
+            background-size: cover;
+    display: block;
+    float: left;
+    height: 30px;
+    width: 110px;
+}
+.footer-copyright {
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 15px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+.footer-navigation {
+    float: left;
+    margin-left: 70px;
+}
+.footer-navigation ul {
+    font-size: 0;
+    list-style: none;
+    margin: 0;
+    padding: 5px 0;
+}
+.footer-navigation li {
+    display: inline-block;
+    line-height: 20px;
+    vertical-align: top;
+}
+.footer-navigation li + li {
+    margin-left: 45px;
+}
+.footer-navigation li a {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.footer-appstore-link {
+    background: url(../images/appstore-label.png) center no-repeat;
+    display: block;
+    float: left;
+    height: 31px;
+    margin-left: 20px;
+    width: 104px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pp-section {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.pp-easing {
+    -webkit-transition: all 1000ms cubic-bezier(.550, .085, .000, .990);
+       -moz-transition: all 1000ms cubic-bezier(.550, .085, .000, .990);
+         -o-transition: all 1000ms cubic-bezier(.550, .085, .000, .990);
+            transition: all 1000ms cubic-bezier(.550, .085, .000, .990);
+    /* custom */
+
+    -webkit-transition-timing-function: cubic-bezier(.550, .085, .000, .990);
+       -moz-transition-timing-function: cubic-bezier(.550, .085, .000, .990);
+         -o-transition-timing-function: cubic-bezier(.550, .085, .000, .990);
+            transition-timing-function: cubic-bezier(.550, .085, .000, .990);
+    /* custom */
+}
+
+#pp-nav {
+    left: 50%;
+    margin-top: -32px;
+    margin-left: 700px;
+    opacity: 1;
+    position: fixed;
+    top: 50%;
+    z-index: 100;
+}
+#pp-nav.right {
+    right: 17px;
+}
+#pp-nav.left {
+    left: 17px;
+}
+.pp-section.pp-table {
+    display: table;
+}
+.pp-slidesNav {
+    left: 50%;
+    opacity: 1;
+    position: absolute;
+    z-index: 4;
+}
+.pp-slidesNav.bottom {
+    bottom: 17px;
+}
+.pp-slidesNav.top {
+    top: 17px;
+}
+#pp-nav ul,
+.pp-slidesNav ul {
+    margin: 0;
+    padding: 0;
+}
+#pp-nav li,
+.pp-slidesNav li {
+    display: block;
+    height: 13px;
+    margin: 7px;
+    position: relative;
+    width: 14px;
+}
+.pp-slidesNav li {
+    display: inline-block;
+}
+#pp-nav li a,
+.pp-slidesNav li a {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    position: relative;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+}
+#pp-nav li .active span,
+.pp-slidesNav .active span {
+    background: #333;
+}
+#pp-nav span,
+.pp-slidesNav span {
+    background: rgba(0, 0, 0, 0);
+    border: 1px solid #000;
+    height: 8px;
+    left: 2px;
+    position: absolute;
+    top: 2px;
+    width: 8px;
+    z-index: 1;
+
+    border-radius: 50%;
+}
+.pp-tooltip {
+    display: none !important;
+}
+.pp-scrollable {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 9. MEDIAQUERIES */
+
+@media(max-width: 1370px) {
+    .section .title-wrapper .title span {
+        font-size: 4.6vw;
+    }
+
+    .section-5 .appstore-link {
+        width: 16%;
+    }
+
+    #pp-nav {
+        left: auto;
+        margin-left: 0;
+        right: 10px;
+    }
+
+    .section .title-wrapper .title > span {
+        font-size: 42px;
+    }
+}
