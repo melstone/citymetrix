@@ -34,26 +34,40 @@ function show_map() {
 }
 
 $(function() {
+
+    // Инициализация карты на странице "Контакты"
     if ( $('#map').length > 0 ) {
         show_map();
     }
 
-    if ( $('.b-more-articles').length > 0) {
-        $('.b-more-articles .item').each(function(index, el) {
-            var item = $(this);
-            item.css('height', item.outerWidth());
-        });   
-    }
-
+    // Инициализация лайтбокса для изображений в контенте страницы | Добавление кнопки загрузки изображения
     if ( $('.lightbox-image').length > 0 ) {
-        $('.lightbox-image').fancybox({
-            theme : 'light',
-            helpers:  {
-                title:  'outside',
-                overlay: {
-                  locked: false
+        
+        $('.lightbox-image').each(function(index, el) {
+            var image = $(this);
+            var src = image.attr('src');
+            var filename = src.substr( src.lastIndexOf("/") + 1);
+
+            image.removeClass('lightbox-image');
+            image.wrap('<div class="lightbox-image"></div>')
+
+            image.closest('.lightbox-image').append(
+                '<span class="lightbox-image__actions">'+
+                    '<a href="'+src+'" class="lightbox-image__actions-zoom-button" rel="gallery"></a>'+
+                    '<a href="'+src+'" class="lightbox-image__actions-download-button" download="'+filename+'"></a>'+
+                '</span>'
+            );
+
+            $('.lightbox-image__actions-zoom-button').fancybox({
+                theme : 'light',
+                margin: 50,
+                helpers:  {
+                    title:  'outside',
+                    overlay: {
+                      locked: false
+                    }
                 }
-            }
+            });
         });
     }
 

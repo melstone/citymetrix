@@ -1,1 +1,5 @@
 adddefaultcharset  utf8
+
+<FilesMatch "\.(?i:doc|odf|jpg|png|pdf|rtf|txt)$">
+  Header set Content-Disposition attachment
+</FilesMatch>
