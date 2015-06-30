@@ -37,111 +37,277 @@
 									<img class="lightbox-image" src="/storage/article_image_001.png" alt="">
 								</p>
 
-								<br>
+								<br><br>
 
 								<p>
 									Голование на странице (исходное состояние):
 								</p>
-
-								<div class="b-poll">
-									<div class="b-poll__title">
-										Голосование
-									</div>
-									<div class="b-poll__options">
-										<div class="option">
-											<input type="radio" name="options" id="option1" value="option1">
-											<label for="option1">Вариант 1</label> 
-										</div>
-										<div class="option">
-											<input type="radio" name="options" id="option2" value="option2">
-											<label for="option2">Вариант 2</label> 
-										</div>
-										<div class="option">
-											<input type="radio" name="options" id="option3" value="option3">
-											<label for="option3">Вариант 3</label> 
-										</div>
-										<div class="option">
-											<input type="radio" name="options" id="option4" value="option4">
-											<label for="option4">Вариант 4</label> 
-										</div>
-									</div>
-									<div class="b-poll__total">
-										Проголосовало <b>214</b> человек
-									</div>
-									<div class="b-poll__button">
-										Проголосовать
-									</div>
-								</div>
-								<!-- / .b-poll -->
 								
-								<br>
+								<div class="panels">
+								    <div class="panel panel-default">
+								        <div class="panel-heading">
+							        		<a role="button" data-toggle="collapse" href="#poll-1">
+							          			01. <span>Сколько Вы готовы заплатить за капремонт в своем доме?</span>
+							        		</a>
+								        </div>
+								        <div id="poll-1" class="panel-collapse collapse">
+								            <div class="panel-body">
+								                <div class="b-poll">
+													<div class="b-poll__options">
+														<div class="option">
+															<input type="radio" name="options" id="option1" value="option1">
+															<label for="option1">Нисколько</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option2" value="option2">
+															<label for="option2">До 500 руб.</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option3" value="option3">
+															<label for="option3">до 1000 руб.</label> 
+														</div>
+													</div>
+													<div class="b-poll__start-date">
+														Голосование началось 12.06.2015
+													</div>
+													<div class="b-poll__total">
+														Проголосовало <b>156</b>
+													</div>
+												</div>
+												<!-- / .b-poll -->
+								            </div>
+								        </div>
+								    </div>
+
+								    <div class="panel panel-default">
+								        <div class="panel-heading">
+							        		<a role="button" data-toggle="collapse" href="#poll-2">
+							          			02. <span>Считаете ли Вы систему платных парковок в Москве незаконной?</span>
+							        		</a>
+								        </div>
+								        <div id="poll-2" class="panel-collapse collapse">
+								            <div class="panel-body">
+								                <div class="b-poll">
+													<div class="b-poll__options">
+														<div class="option">
+															<input type="radio" name="options" id="option1" value="option1">
+															<label for="option1">Да</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option2" value="option2">
+															<label for="option2">Нет</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option3" value="option3">
+															<label for="option3">Затрудняюсь ответить</label> 
+														</div>
+													</div>
+													<div class="b-poll__start-date">
+														Голосование началось 17.06.2015
+													</div>
+													<div class="b-poll__total">
+														Проголосовало <b>214</b>
+													</div>
+												</div>
+												<!-- / .b-poll -->
+								            </div>
+								        </div>
+								    </div>
+
+								    <div class="panel panel-default">
+								        <div class="panel-heading">
+							        		<a role="button" data-toggle="collapse" href="#poll-3">
+							          			03. <span>Сколько Вы готовы заплатить за капремонт в своем доме?</span>
+							        		</a>
+								        </div>
+								        <div id="poll-3" class="panel-collapse collapse in">
+								            <div class="panel-body">
+								                <div class="b-poll">
+													<div class="b-poll__options">
+														<div class="option">
+															<input type="radio" name="options" id="option1" value="option1">
+															<label for="option1">Раз в неделю и чаще</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option2" value="option2">
+															<label for="option2">Раз в месяц</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option3" value="option3">
+															<label for="option3">1-2 раза в год </label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option4" value="option4">
+															<label for="option4">Не помню, когда был в последний раз </label> 
+														</div>
+													</div>
+													<div class="b-poll__start-date">
+														Голосование началось 17.06.2015
+													</div>
+													<div class="b-poll__total">
+														Проголосовало <b>214</b>
+													</div>
+												</div>
+												<!-- / .b-poll -->
+								            </div>
+								        </div>
+								    </div>
+
+								    <div class="panel panel-default">
+								        <div class="panel-heading">
+							        		<a role="button" data-toggle="collapse" href="#poll-4">
+							          			04. <span>Нужно ли законодательно узаконить в России гражданский брак?</span>
+							        		</a>
+								        </div>
+								        <div id="poll-4" class="panel-collapse collapse">
+								            <div class="panel-body">
+								                <div class="b-poll">
+													<div class="b-poll__options">
+														<div class="option">
+															<input type="radio" name="options" id="option1" value="option1">
+															<label for="option1">Да</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option2" value="option2">
+															<label for="option2">Нет</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option3" value="option3">
+															<label for="option3">Не знаю</label> 
+														</div>
+													</div>
+													<div class="b-poll__start-date">
+														Голосование началось 17.06.2015
+													</div>
+													<div class="b-poll__total">
+														Проголосовало <b>214</b>
+													</div>
+												</div>
+												<!-- / .b-poll -->
+								            </div>
+								        </div>
+								    </div>
+
+								    <div class="panel panel-default">
+								        <div class="panel-heading">
+							        		<a role="button" data-toggle="collapse" href="#poll-5">
+							          			05. <span>Если президентом России станет женщина, улучшится ли жизнь в стране?</span>
+							        		</a>
+								        </div>
+								        <div id="poll-5" class="panel-collapse collapse">
+								            <div class="panel-body">
+								                <div class="b-poll">
+													<div class="b-poll__options">
+														<div class="option">
+															<input type="radio" name="options" id="option1" value="option1">
+															<label for="option1">Однозначно да</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option2" value="option2">
+															<label for="option2">Нет, будет хуже</label> 
+														</div>
+														<div class="option">
+															<input type="radio" name="options" id="option3" value="option3">
+															<label for="option3">Кто его знает..</label> 
+														</div>
+													</div>
+													<div class="b-poll__start-date">
+														Голосование началось 17.06.2015
+													</div>
+													<div class="b-poll__total">
+														Проголосовало <b>214</b>
+													</div>
+												</div>
+												<!-- / .b-poll -->
+								            </div>
+								        </div>
+								    </div>
+							    </div>
+							    <!-- / .panels -->
+								
+								<br><br>
 
 								<p>
 									Голование на странице (состояние после голосования):
 								</p>
 
-								<div class="b-poll">
-									<div class="b-poll__title">
-										Голосование
-									</div>
-									<div class="b-poll__results">
-										<div class="result">
-											<div class="result__title">
-												Вариант 1
-											</div>
-											<div class="result__value">
-												<div class="result__value-percent" style="width: 100%;"></div>
-												<span>40</span>
-												<div class="result__value-perc">
-													33.33%
-												</div>
-											</div>
-										</div>
+								<div class="panel panel-default">
+							        <div class="panel-heading">
+						        		<a role="button" data-toggle="collapse" href="#poll-temp">
+						          			03. <span>Сколько Вы готовы заплатить за капремонт в своем доме?</span>
+						        		</a>
+							        </div>
+							        <div id="poll-temp" class="panel-collapse collapse in">
+							            <div class="panel-body">
+							                <div class="b-poll">
+												<div class="b-poll__results">
+													<div class="result">
+														<div class="result__title">
+															Раз в неделю и чаще
+														</div>
+														<div class="result__value">
+															<div class="result__value-percent" style="width: 66.66%;">
+																<span>178</span>
+															</div>
+															<div class="result__value-perc">
+																20%
+															</div>
+														</div>
+													</div>
 
-										<div class="result">
-											<div class="result__title">
-												Вариант 2
-											</div>
-											<div class="result__value">
-												<div class="result__value-percent" style="width: 37.5%;"></div>
-												<span>15</span>
-												<div class="result__value-perc">
-													12.5%
-												</div>
-											</div>
-										</div>
+													<div class="result">
+														<div class="result__title">
+															Раз в месяц
+														</div>
+														<div class="result__value">
+															<div class="result__value-percent" style="width: 79.1%;">
+																<span>15</span>
+															</div>
+															<div class="result__value-perc">
+																47%
+															</div>
+														</div>
+													</div>
 
-										<div class="result">
-											<div class="result__title">
-												Вариант 3
-											</div>
-											<div class="result__value">
-												<div class="result__value-percent" style="width: 67.5%;"></div>
-												<span>27</span>
-												<div class="result__value-perc">
-													22.5%
-												</div>
-											</div>
-										</div>
+													<div class="result">
+														<div class="result__title">
+															1-2 раза в год
+														</div>
+														<div class="result__value">
+															<div class="result__value-percent" style="width: 51%;">
+																<span>27</span>
+															</div>
+															<div class="result__value-perc">
+																27%
+															</div>
+														</div>
+													</div>
 
-										<div class="result">
-											<div class="result__title">
-												Вариант 4
-											</div>
-											<div class="result__value">
-												<div class="result__value-percent" style="width: 94.8%;"></div>
-												<span>38</span>
-												<div class="result__value-perc">
-													31.6%
+													<div class="result">
+														<div class="result__title">
+															Не помню, когда был в последний раз
+														</div>
+														<div class="result__value">
+															<div class="result__value-percent" style="width: 24%;">
+																<span>38</span>
+															</div>
+															<div class="result__value-perc">
+																13%
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="b-poll__start-date">
+													Голосование началось 17.06.2015
+												</div>
+												<div class="b-poll__total">
+													Проголосовало <b>214</b>
 												</div>
 											</div>
-										</div>
-									</div>
-									<div class="b-poll__total">
-										Проголосовало <b>120</b> человек
-									</div>
-								</div>
-								<!-- / .b-poll -->
+											<!-- / .b-poll -->
+							            </div>
+							        </div>
+							    </div>
 							</div>
 
 							<div class="b-download-pdf">

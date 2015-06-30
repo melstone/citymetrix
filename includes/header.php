@@ -16,6 +16,7 @@
 
 	<script src="/js/jquery-1.11.3.min.js"></script>
 	<script src="/js/main.js"></script>
+	<script src="/js/bootstrap-custom.js"></script>
 	<script src="/js/jquery.tmpl.min.js"></script>
 	<script src="/js/jquery.fancybox.js"></script>
 

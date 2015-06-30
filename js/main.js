@@ -33,6 +33,24 @@ function show_map() {
     });
 }
 
+
+// Функция установки высоты группе элементов
+function equalHeight(group) {
+    tallest = 0;
+    group.each(function() {
+        thisHeight = $(this).height();
+        if(thisHeight > tallest) {
+            tallest = thisHeight;
+        }
+    });
+    group.height(tallest);
+}
+
+
+
+
+    
+
 $(function() {
 
     // Инициализация карты на странице "Контакты"
@@ -134,6 +152,15 @@ $(function() {
             $('.comment-form').removeClass('comment-form--hidden');
         }, 100);
     });
+
+
+
+
+    
+    if ( $('.category-posts--post .title').length > 0 ) {
+        equalHeight( $('.category-posts--post .title') );
+    }
+    
     
 });
 

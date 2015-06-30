@@ -312,6 +312,7 @@ body.layout-small-width .page.container {
     max-width: none;
     min-width: none;
     width: 1004px;
+    position: relative;
 }
 .container:after {
     clear: both;
@@ -768,35 +769,6 @@ body.layout-small-width .page.container {
     top: 50%;
     width: 16px;
 }
-
-.b-more-articles-list .item .category.culture {
-    background-color: #66c49a;
-}
-.b-more-articles-list .item .category.culture:before {
-    background-image: url(../images/icon-culture-white-24.png);
-}
-
-.b-more-articles-list .item .category.security {
-    background-color: #608eda;
-}
-.b-more-articles-list .item .category.security:before {
-    background-image: url(../images/icon-security-white-24.png);
-}
-
-.b-more-articles-list .item .category.health {
-    background-color: #f57f7f;
-}
-.b-more-articles-list .item .category.health:before {
-    background-image: url(../images/icon-health-white-24.png);
-}
-
-.b-more-articles-list .item .category.work {
-    background-color: #f27f5a;
-}
-.b-more-articles-list .item .category.work:before {
-    background-image: url(../images/icon-business-white-24.png);
-}
-
 .b-more-articles-list .item .category.house {
     background-color: #65bb69;
 }
@@ -1190,19 +1162,21 @@ body.layout-small-width .page.container {
     vertical-align: bottom;
 }
 .home-grid-item--digit-of-day .inner .value {
-    font-size: 24px;
-    margin-top: 3px;
+    font-size: 35px;
+    margin: 10px 0;
+    line-height: 1;
 }
 .home-grid-item--digit-of-day .inner .value span {
+    display: block;
+    margin-top: 5px;
     font-family: Roboto-300;
     font-size: 12px;
-    line-height: 1;
 }
 .home-grid-item--digit-of-day .inner .caption {
     font-family: Roboto-500;
     font-size: 12px;
     line-height: 1.1;
-    margin-top: 5px;
+    margin-top: 3px;
 }
 
 .home-grid-item--about .image {
@@ -1302,7 +1276,7 @@ body.layout-small-width .page.container {
 }
 .category-title:before {
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 0 0;
     content: '';
     height: 36px;
     left: 0;
@@ -1360,13 +1334,7 @@ body.layout-small-width .page.container {
     vertical-align: top;
     width: 31.33%;
 }
-.category-posts--post .title {
-    color: #1a1a1a;
-    font-family: Roboto-500;
-    font-size: 18px;
-    line-height: 1.1;
-}
-.category-posts--post .title a {
+.category-posts--post a.title {
     color: #1a1a1a;
     font-family: Roboto-500;
     font-size: 18px;
@@ -1652,6 +1620,9 @@ body.layout-small-width .page.container {
 }
 .reply-comments,
 .comment-form {
+    position: relative;
+}
+.comment-parent, .comment-reply-form {
     margin-left: 70px;
 }
 .comment .avatar {
@@ -1770,6 +1741,10 @@ body.layout-small-width .page.container {
 
         -ms-box-sizing: border-box;
 }
+.comment.with-error textarea {
+    border-color: red;
+}
+
 .comment textarea:focus {
     border-color: #aaa;
 }

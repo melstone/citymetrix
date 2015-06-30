@@ -9,7 +9,9 @@
 
 					<div class="category-posts">
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							<div class="title">
+								<a href="/article.php">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_001.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -20,7 +22,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">Чем расплачиваться в <br> интернете</a>
+							<div class="title">
+								<a href="/article.php">Чем расплачиваться в интернете</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_002.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -31,7 +35,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							<div class="title">
+								<a href="/article.php">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_001.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -42,7 +48,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">Как работают в Альфа Банке: <br>Обзор</a>
+							<div class="title">
+								<a href="/article.php">Как работают в Альфа Банке: <br>Обзор</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_003.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -53,7 +61,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">Квартира в центре города в спокойных тонах</a>
+							<div class="title">
+								<a href="/article.php">Квартира в центре города в спокойных тонах</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_004.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -64,7 +74,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">Как работают в Альфа Банке: <br>Обзор</a>
+							<div class="title">
+								<a href="/article.php">Как работают в Альфа Банке: <br>Обзор</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_003.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -75,7 +87,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							<div class="title">
+								<a href="/article.php">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_001.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -86,7 +100,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">Чем расплачиваться в <br>интернете</a>
+							<div class="title">
+								<a href="/article.php">Чем расплачиваться в <br>интернете</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_002.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
@@ -97,7 +113,9 @@
 						</div>
 
 						<div class="category-posts--post">
-							<a href="/article.php" class="title">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							<div class="title">
+								<a href="/article.php">18 кафе и ресторанов, два бара, один стейкхаус и одная чайная</a>
+							</div>
 							<a href="/article.php" class="preview" style="background-image: url(/storage/article_preview_001.jpg);"></a>
 							<div class="anounce">
 								Ресторан в «Метрополе», киоск около «Чистых прудов», бургерная Новикова, The Hummus снова в саду имени Баумана, третий Shake Shack и другие места - в нашем обзоре
