@@ -311,7 +311,7 @@
 							</div>
 
 							<div class="b-download-pdf">
-								<a href="/storage/presentation_company.pdf">
+								<a href="/storage/presentation_company.pdf" download="presentation_company">
 									<span>Скачать файл</span>
 								</a>
 							</div>
@@ -544,11 +544,5 @@
 				<!-- / .page-inner -->
 			</div>
 			<!-- / .page -->
-
-			<script>
-				$(function() {
-					$('body').addClass('layout-small-width');
-				});
-			</script>
 
 <?php require_once('http://' . $_SERVER['HTTP_HOST'] . '/includes/footer.php'); ?>

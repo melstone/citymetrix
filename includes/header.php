@@ -14,6 +14,8 @@
 
 	<link rel="stylesheet" href="/css/main.css">
 
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+
 	<script src="/js/jquery-1.11.3.min.js"></script>
 	<script src="/js/main.js"></script>
 	<script src="/js/bootstrap-custom.js"></script>
@@ -27,25 +29,35 @@
 </head>
 <body>
 
+	<div class="navigation">
+		<ul>
+			<li class="house"><a href="/category.php">Дом</a></li>
+			<li class="auto"><a href="/category.php">Транспорт</a></li>
+			<li class="leisure"><a href="/category.php">Досуг</a></li>
+			<li class="education"><a href="/category.php">Образование</a></li>
+			<li class="economy"><a href="/category.php">Экономика</a></li>
+			<li class="district"><a href="/category.php">Мой округ</a></li>
+			<li class="security"><a href="/category.php">Безопасность</a></li>
+		</ul>
+
+		<ul>
+			<li class="about"><a href="/about.php">О проекте</a></li>
+			<li class="polls"><a href="#">Опросы</a></li>
+		</ul>
+
+		<!-- div class="close-main-navigation">
+		</div> -->
+	</div>
+	<!-- / .navigation -->
+
 	<div class="siteWrapper">
 		<div class="canvas">
 			<div class="header">
 				<div class="container">
-					<a href="/" class="logo"></a>
+					<div class="navigation-menu-trigger">
+		            </div>
 
-					<div class="main-navigation">
-						<ul>
-							<li class="auto"><a href="/category.php">Транспорт</a></li>
-							<li class="house"><a href="/category.php">Дом</a></li>
-							<li class="shopping"><a href="/category.php">Шоппинг</a></li>
-							<li class="neighbors"><a href="/category.php">Соседи</a></li>
-							<li class="culture"><a href="/category.php">Досуг</a></li>
-							<li class="work"><a href="/category.php">Работа</a></li>
-							<li class="health"><a href="/category.php">Здоровье</a></li>
-							<li class="education"><a href="/category.php">Образование</a></li>
-							<li class="security"><a href="/category.php">Безопасность</a></li>
-						</ul>
-					</div>
+					<a href="/" class="logo"></a>
 				</div>
 			</div>
 			<!-- / .header -->
